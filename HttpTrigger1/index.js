@@ -1,8 +1,8 @@
 const line = require('@line/bot-sdk');
 
 const config = {
-    channelAccessToken: 'RmqIHrM8vHTTBIAJbH/I7mFFcSoPu7AFDJWrWOvZm6RDrLEUAiOtaxDwNgKmSdo4Q+QVnTxlgR2cKof76pe0BS2rKkhWJh9K81mUqo4NuO+FzVEPi3TUYiK/7rXXkaDsrHSiYAhTHWDJMThqNC/vPwdB04t89/1O/w1cDnyilFU=',
-    channelSecret:  'cc8d848718e5dbbe3cf213aed988100f',
+    channelAccessToken: '<アクセストークン>',
+    channelSecret:  '<シークレット>',
 };
 
 const client = new line.Client(config);
